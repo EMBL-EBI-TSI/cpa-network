@@ -3,7 +3,7 @@ Deploy a private network in the Cloud
 
 ## Required variables for OpenStack
 
-`network_name` An arbitrary name that will be assigned to your network, it has to be unique in your Google Cloud Project
+`network_name` An arbitrary name that will be assigned to your network, it has to be unique in your OpenStack tenancy
 
 
 ## Required variables for Google Cloud Platform
