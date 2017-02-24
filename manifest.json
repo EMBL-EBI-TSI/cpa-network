@@ -1,12 +1,18 @@
 {
-	"applicationName": "Network deployment",
-	"contactEmail": "gianni@ebi.ac.uk",
-	"about": "Deploy a private network",
-	"version": "0.1a",
-	"cloudProviders": [
-		{ "cloudProvider": "GCP", "path": "gcp",
-                "inputs": ["project", "region"]},
-                { "cloudProvider":"OSTACK","path":"ostack"}
-	],
-	"inputs": ["network_name"]
+    "applicationName": "Network deployment",
+    "contactEmail": "gianni@ebi.ac.uk",
+    "about": "Deploy a private network",
+    "version": "0.1a",
+    "cloudProviders": [{
+            "cloudProvider": "GCP",
+            "path": "gcp",
+            "inputs": ["project", "region"]
+        },
+        {
+            "cloudProvider": "OSTACK",
+            "path": "ostack"
+        }
+    ],
+    "inputs": ["network_name"],
+    "outputs": ["network_id"]
 }
