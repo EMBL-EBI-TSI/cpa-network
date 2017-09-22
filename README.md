@@ -21,5 +21,5 @@ At the moment of writing this are the available regions:
 
 ## Required variables for OpenStack
 
-`network_name` An arbitrary name that will be assigned to your network, it has to be unique in your OpenStack Project
+`network_name` An arbitrary name that will be assigned to your network, it has to be unique in your OpenStack tenancy
 
