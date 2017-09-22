@@ -2,8 +2,12 @@
     "applicationName": "Network deployment",
     "contactEmail": "gianni@ebi.ac.uk",
     "about": "Deploy a private network",
-    "version": "0.1a",
+    "version": "0.5",
     "cloudProviders": [{
+            "cloudProvider": "AWS",
+            "path": "aws"
+        },
+        {
             "cloudProvider": "GCP",
             "path": "gcp",
             "inputs": ["project", "region"]
