@@ -18,5 +18,5 @@
         }
     ],
     "inputs": ["network_name"],
-    "outputs": ["network_id", "network_name"]
+    "outputs": ["network_id"]
 }
