@@ -1,0 +1,7 @@
+# azure basic creds
+subscription_id = ""
+client_id = ""
+client_secret = ""
+tenant_id = ""
+
+region = "westeurope"
