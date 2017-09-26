@@ -15,3 +15,11 @@ resource "aws_subnet" "subnet" {
     Name = "${var.network_name}-subnet"
   }
 }
+
+resource "aws_internet_gateway" "gateway" {
+  vpc_id = "${aws_vpc.vpc.id}"
+
+  tags {
+    Name = "${var.network_name}-gateway"
+  }
+}
