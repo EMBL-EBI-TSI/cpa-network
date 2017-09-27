@@ -54,3 +54,8 @@ ap-south-1	|Asia Pacific (Mumbai)
 sa-east-1	|South America (São Paulo)
 
 Note: In order to use the default `AMI` value with `cpa-instance` you can choose `eu-west-1`
+
+## Azure
+
+`network_name` An arbitrary name that will be assigned to your network, it has to be unique in your OpenStack tenancy
+`region` An azure region to deploy to, e.g. `europewest`
