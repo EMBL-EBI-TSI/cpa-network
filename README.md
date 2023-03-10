@@ -1,3 +1,6 @@
+> **Note**
+> The EBI Cloud Portal has been retired and its code base is no longer updated.
+
 #TSI Cloud Portal - network deployment
 Deploy a private network in the Cloud
 
